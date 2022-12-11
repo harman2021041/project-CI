@@ -25,12 +25,12 @@
       <ul class="navbar-nav ">
        <a href="login">
         <li class="nav-item me-4">
-       
-          <button type="button  "  class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#signin">sign in</button>
+        <button type="button  "  class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#signin">sign in</button>
         </li></a>
+        <a href="register">
         <li class="nav-item">
           <button type="button " class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#signup">sign up</button>
-        </li>
+        </li></a>
       </ul>
       
   </div>

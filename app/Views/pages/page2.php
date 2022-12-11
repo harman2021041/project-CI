@@ -34,15 +34,15 @@
   </nav>
   <div class="container-fluid p-5 text-white text-center">
     <h1 class="text-body">Welcome to QUIZ-BUDD</h1>
-    <h4 class="text-body">Exercise your brain with these interesting quizzes and puzzles; <br>
-      Win points, badges, prizes and impress your friends & colleagues!<br></h4>
+    <h4 class="text-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab praesentium, quo excepturi autem omnis 
+      id suscipit ullam. Voluptatem ratione veritatis quo, fugit reiciendis ab dolores facilis alias. Cupiditate, vitae laborum?<br></h4>
     </div>
     <div class="container-fluid mt-2">
-      <div class="row">
-        <div class="col-sm-4 text-center">
+      <div class="row"><br><br><br>
+        <div  class="col-sm-4 text-center ">
           <a href="page3 ">
           <img src ="https://images.unsplash.com/photo-1603190287605-e6ade32fa852?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZW50ZXJ0YWlubWVudHxlbnwwfHwwfHw%3D&w=1000&q=80" width="400" height="300">
-          <h3 class="mt-3 text-dark"><b>ENTERTAINMENT</b></h3></a>
+          <h3  class="mt-3 text-dark"><b>ENTERTAINMENT</b></h3></a>
         </div>
         <div class="col-sm-4 text-center">
           <a href="page3 ">

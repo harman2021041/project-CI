@@ -16,20 +16,21 @@
   <div class="container-fluid">
     <ul class="navbar-nav  me-auto">
       <li class="nav-item">
-        <a class="navbar-brand "><img src ="C:\Users\anter\Downloads\qm2-removebg-preview.png" height="50"></a>
+        <a class="navbar-brand "><img src ="/logo(2).png" height="50"></a>
       </li>
       <li class="nav-item">
-       <a class="navbar-brand lgname"> <b>QUIZ-BUDD</b></a>
+       <a class="navbar-brand lgname aa"> <b>DOCTORSITE</b></a>
       </li>
     </ul>
       <ul class="navbar-nav ">
       <a href="login">
         <li class="nav-item me-4">
-        <button type="button  "  class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#signin">sign in</button>
+        <button type="button  "  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signin">sign in</button>
         </li></a>
+        <a href="register">
         <li class="nav-item">
-          <button type="button " class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#signup">sign up</button>
-        </li>
+          <button type="button " class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signup">sign up</button>
+        </li></a>
       </ul>
       
   </div>
@@ -93,49 +94,23 @@
 </div>
 <!-- Carousel -->
    
-<br><br>
-      <div class="row mt-5 ab">
-        <div class="col-sm-5 ms-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. E
-          xplicabo vero nostrum, nemo aliquid ipsum dolorum 
-          doloribus cumque officia et aliquam tempore aperiam voluptates labore repudiandae nemo aliquid ipsum dolorum 
-          doloribus cumque officia et aliquam tempore aperiam voluptates labore repudiandae fugiat molestiae quasi repellat nulla.<br><br>
-         <a href="page2">
-        <button class="btn btn-success btn-lg">GET STARTED</button>
-      </a>
-        </div>
-        <div class="col-sm-5 offset-sm-1  ">
-           <!-- Carousel -->
-<div id="demo" class="carousel slide" data-interval="1000" data-bs-ride="carousel">
-
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-  </div>
-  
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://thumbs.dreamstime.com/b/ready-quiz-ready-quiz-written-remember-note-pin-cork-board-142093374.jpg" height="500" style="width:100%">
-    </div>
-    <div class="carousel-item">
-      <img src="https://lh3.googleusercontent.com/jIdGI_fk5z0-D0D-l0BdO131NsGEB3HErphyPzDo3p99Gf9V9vmSMvxvdw951iMK_Q" height="500" style="width:100%">
-    </div>
-    <div class="carousel-item">
-      <img src="https://cdn.pixabay.com/photo/2015/03/20/00/19/smiley-681575_960_720.jpg" height="500"   style="width:100%">
-    </div>
-  </div>
-  
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
+<br><br> 
+<br>
+<br>
+      <div class="offset-sm-7 ab mt-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quasi maxime animi 
+        consequatur porro aspernatur facere laboriosam, velit inventore, sed vero nobis officia repudiandae ex voluptatibus non maiores dolor earum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Ratione autem blanditiis tempora alias quaerat ipsum ex ea, eaque earum odit 
+        quam tempore dolorem, velit similique. Nobis sapiente blanditiis assumenda facere.
+        <br>
+        <br>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <a href="login">
+  <button class="btn btn-primary" type="button">GET YOUR APPOINTMENT BOOKED ->
+  </button></a>
 </div>
-          </div>
-      </div>
+</div>
+
 </body>
 </html>

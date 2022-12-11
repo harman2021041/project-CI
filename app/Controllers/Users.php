@@ -145,6 +145,8 @@ class Users extends BaseController
 		session()->destroy();
 		return redirect()->to('/');
 	}
+	
+	
 
 	//--------------------------------------------------------------------
 

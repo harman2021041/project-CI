@@ -1,10 +1,7 @@
 .bg{
-    background: linear-gradient(to right,rgba(159, 216, 144, 0.2), rgba(159, 217, 143, 0.2)),url("https://media.istockphoto.com/vectors/seamless-wallpaper-pattern-vector-id473423540?k=20&m=473423540&s=612x612&w=0&h=CPR5UC7Yi1y_ExbcFB8KXMrRMtgNeUvNiEcPfdMzrqQ=");
+    background: linear-gradient(to right,rgba(159, 216, 144, 0.2), rgba(159, 217, 143, 0.2)),url("https://img.freepik.com/free-vector/clean-medical-background_53876-116875.jpg?w=2000");
 
-background-repeat: repeat;
-
-
-}
+background-repeat: repeat;}
 
 .bgnav{
     background: rgba(183, 253, 195, 0.5);

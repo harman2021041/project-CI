@@ -15,38 +15,40 @@
       <div class="container-fluid">
       <ul class="navbar-nav  me-auto">
         <li class="nav-item">
-          <a class="navbar-brand "><img src ="C:\Users\anter\Downloads\qm2-removebg-preview.png" height="50"></a>
+          <a class="navbar-brand "><img src ="/logo(2).png" height="50"></a>
         </li>
         <li class="nav-item">
-         <a class="navbar-brand lgname"> <b>QUIZ-BUDD</b></a>
+         <a class="navbar-brand lgname aa" href="/"> <b>DOCTORSITE</b></a>
         </li>
       </ul>
-      <a class="navbar-brand lgname" href="/">Ci4 Login</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <?php if (session()->get('isLoggedIn')): ?>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item <?= ($uri->getSegment(1) == 'dashboard' ? 'active' : null) ?>">
-            <a class="nav-link"  href="/dashboard">Dashboard</a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item pr-3 <?= ($uri->getSegment(1) == 'dashboard' ? 'active' : null) ?>">
+          <a  href="/dashboard">
+              <button type="button"class="btn btn-primary">dashboard </button></a>
           </li>
-          <li class="nav-item <?= ($uri->getSegment(1) == 'profile' ? 'active' : null) ?>">
-            <a class="nav-link" href="/profile">Profile</a>
+          <li class="nav-item pr-3 <?= ($uri->getSegment(1) == 'profile' ? 'active' : null) ?>">
+          <a  href="/profile">
+              <button type="button"class="btn btn-primary">profile </button></a>
           </li>
         </ul>
         <ul class="navbar-nav my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="/logout">Logout</a>
+             <a  href="/logout">
+              <button type="button"class="btn btn-primary">Logout</button></a>
           </li>
         </ul>
       <?php else: ?>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item <?= ($uri->getSegment(1) == '' ? 'active' : null) ?>">
-            <a class="nav-link" href="/">Login</a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item pr-3 <?= ($uri->getSegment(1) == '' ? 'active' : null) ?>">
+            <a  href="/login">
+              <button type="button"class="btn btn-primary">Login </button></a>
           </li>
           <li class="nav-item <?= ($uri->getSegment(1) == 'register' ? 'active' : null) ?>">
-            <a class="nav-link" href="/register">Register</a>
+          <a  href="/register">
+          <button type="button"class="btn btn-primary">register</button></a>
           </li>
         </ul>
         <?php endif; ?>
