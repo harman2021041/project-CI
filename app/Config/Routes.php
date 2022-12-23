@@ -38,6 +38,7 @@ $routes->match(['get','post'],'register', 'Users::register', ['filter' => 'noaut
 $routes->match(['get','post'],'profile', 'Users::profile',['filter' => 'auth']);
 $routes->get('dashboard', 'Dashboard::index',['filter' => 'auth']);
 $routes->post('page4', 'Data::insert');
+$routes->post('page4', 'Try::index');
 $routes->get('page4', 'Page4::index');
 $routes->get('pages', 'Pages::index');
 $routes->get('(:any)', 'Pages::view/$1');
